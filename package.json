@@ -1,0 +1,22 @@
+{
+  "name": "protractor-cucumber",
+  "version": "1.0.0",
+  "description": "protracor example with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor ./conf.js",
+    "report": "node reporter.js"
+  },
+  "author": "Carlos Morfín",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^6.2.1"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.2.0",
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0"
+  }
+}
